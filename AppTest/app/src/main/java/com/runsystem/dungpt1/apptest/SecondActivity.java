@@ -22,8 +22,9 @@ public class SecondActivity extends AppCompatActivity implements OnDataPass, OnC
 
     public void changeActivity(boolean isFragment) {
             intent = new Intent(SecondActivity.this, MainActivity.class);
-            intent.putExtra("isA",isFrag);
+            intent.putExtra("isA",isFragment);
             startActivity(intent);
+        //
     }
 
     @Override

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="B"-->
+        <!--android:textSize="50dp"-->
+        <!--android:layout_gravity="center"/>-->
+
+    <Button
+        android:id="@+id/btnBtoA"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"/>
+    <Button
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnBtoC"
+        android:background="@android:color/holo_red_light"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment C"/>
+    <Button
+        android:id="@+id/btnBtoD"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment D"/>
+
+</LinearLayout>

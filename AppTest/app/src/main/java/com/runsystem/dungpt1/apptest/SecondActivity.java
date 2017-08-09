@@ -16,7 +16,6 @@ public class SecondActivity extends AppCompatActivity implements OnDataPass, OnC
     FrameLayout frameLayout;
     TextView tvActivity2;
     boolean isFragmentC = true;
-    String isFrag;
 
     Intent intent;
 

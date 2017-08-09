@@ -17,10 +17,6 @@ public class LogInFragment extends Fragment{
     EditText edtUserName;
     EditText edtPassword;
     Button btnLogin;
-    String userNameLogin;
-    String passwordLogin;
-
-
 
     public LogInFragment() {
     }
